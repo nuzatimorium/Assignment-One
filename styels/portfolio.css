@@ -37,10 +37,42 @@ nav{
 /* header */
 .bgimg{
     background-image: url('../styels/Hero-bg.png');
- height: 652px;
+ background-size: auto;
 
 }
-.article-tittle{
+.section-tittle{
+   color: #0D1321; 
     font-size: 32px;
     font-style: 800px;
 }
+.section-description{
+    font-size:16px ;
+    font-style:400px ;
+    color: #0D1321;
+}
+.inspiration{
+    text-align: center;
+    
+}
+.info{
+    text-align: center;
+    
+}
+.main section{
+    margin-top: 130px;
+}
+/* info section styles */
+.info-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    
+    
+}
+.info{
+    padding:40px ;
+    border-radius:5px ;
+    box-shadow: 0px 6px 50px 0px  rgba(0,0,0,0.6);
+    
+}
+
